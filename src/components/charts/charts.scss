@@ -1,0 +1,200 @@
+.card {
+    position: relative;
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    border-radius: 15px;
+    opacity: 1;
+    padding: 30px;
+}
+
+.chart-wa-cn {
+    padding: 0;
+}
+
+.price {
+    letter-spacing: 1.24px;
+    color: #03040e;
+    font-size: 27px;
+    font-weight: 700;
+    padding-left: 46px;
+    padding-top: 32px;
+    margin-bottom: 0 !important;
+}
+
+.sub-price {
+    letter-spacing: 1.24px;
+    color: #02b9ef;
+    font-size: 17px;
+    position: relative;
+    font-weight: 500;
+    padding-left: 47px;
+    margin-bottom: 0 !important;
+}
+
+.chart-arrow-logo {
+    width: 15px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    left: -2px;
+}
+
+.x-axis .active {
+    background: #02b9ef;
+    color: #fff;
+}
+
+.x-axis span {
+    font-size: 18px;
+    color: #6B6E71;
+    margin: 0;
+    min-width: 51px;
+    text-align: center;
+    padding: 3px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.x-axis span.active {
+    color: #fff;
+}
+
+.portfolio-left h2 {
+    letter-spacing: 0.83px;
+    color: #000000;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    padding-bottom: 24px;
+}
+
+.x-axis {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 635px;
+    margin: 0 auto;
+    padding-top: 36px;
+    padding-bottom: 25px;
+}
+
+.echarts {
+    width: 100%;
+    height: 225px;
+}
+
+#chart-xt {
+    color: #02b9ef;
+}
+
+.apexcharts-toolbar {
+    display: none;
+}
+
+.apexcharts-gridline,
+.apexcharts-xaxis {
+    display: none;
+}
+
+.yellowColor {
+    color: #FF7C40!important;
+}
+
+.show {
+    display: inline-block!important;
+}
+
+.hide {
+    display: none!important;
+}
+
+.down-arrow {
+    width: 15px;
+    display: none;
+    margin-right: 5px;
+}
+
+.apexcharts-tooltip.apexcharts-theme-light {
+    display: none;
+}
+
+.wa-prt-srch {
+    display: none
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .card {
+        width: calc(100% - 4px);
+        left: 1px;
+        top: 10px;
+    }
+    .x-axis {
+        width: 100%;
+        top: 460px;
+        left: 0;
+    }
+    .down-arrow {
+        width: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .x-axis span {
+        font-size: 15px !important;
+        min-width: 16px;
+        padding: 3px 14px !important;
+        border-radius: 8px;
+    }
+}
+
+#chart,
+.chart-box {
+    padding-top: 20px;
+    padding-left: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 22px 35px -16px rgba(0, 0, 0, 0.1);
+}
+
+select.flat-select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #008FFB url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'60px\' height=\'60px\'><polyline fill=\'white\' points=\'46.139,15.518 25.166,36.49 4.193,15.519\'/></svg>") no-repeat scroll right 2px top 9px / 16px 16px;
+    border: 0 none;
+    border-radius: 3px;
+    color: #fff;
+    font-family: arial, tahoma;
+    font-size: 16px;
+    font-weight: bold;
+    outline: 0 none;
+    height: 33px;
+    padding: 5px 20px 5px 10px;
+    text-align: center;
+    text-indent: 0.01px;
+    text-overflow: "";
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease 0s;
+    width: auto;
+    -webkit-transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    -ms-transition: 0.3s ease all;
+    -o-transition: 0.3s ease all;
+    transition: 0.3s ease all;
+}
+
+select.flat-select:focus,
+select.flat-select:hover {
+    border: 0;
+    outline: 0;
+}
+
+.apexcharts-canvas {
+    margin: 0 auto;
+}
+
+#html {
+    display: none;
+}

@@ -1,0 +1,311 @@
+.portfolio-left {
+    background: #fff;
+    padding-left: 20px;
+}
+
+.edit-icon {
+    background: #fff;
+    padding-left: 20px;
+    float: right;
+    left: 80%;
+}
+
+.portfolio-left.col.col-9 {
+    padding-top: 28px;
+    min-height: 100vh;
+    padding-right: 35px;
+}
+
+button.backarrows {
+    background: transparent !important;
+    box-shadow: none;
+}
+
+button.backarrows span.v-btn__content {
+    letter-spacing: 0.4px;
+    color: #03040e;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+button.backarrows.v-btn:before {
+    background-color: transparent !important;
+}
+
+button.backarrows span.v-btn__content>div {
+    margin-right: 7px;
+}
+
+.portfolio-left.profile-main .v-card {
+    box-shadow: none;
+}
+
+.portfolio-left.profile-main {
+    position: relative;
+}
+
+.v-card__actions.profile-img .v-image.v-responsive.theme--light .v-image__image.v-image__image--cover {
+    background-size: 220px;
+}
+
+.profile-main form.v-form label.v-label.v-label--active.theme--light {
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #03040e;
+    transform: translateY(-46px) scale(1);
+}
+
+.profile-main form.v-form .fill-profile-form input {
+    color: #b9b9b9;
+    font-weight: 300;
+}
+
+.fill-profile-form input .col.col-6 {
+    margin-bottom: 10px;
+}
+
+.profile-main .v-text-field__slot {
+    box-shadow: none !important;
+    border: 1px solid #e6e6e6;
+    height: 66px;
+    border-radius: 10px;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+.profile-main form.v-form>div {
+    margin-bottom: 5px;
+}
+
+.v-card__actions.profile-img {
+    padding-bottom: 62px;
+    padding-top: 37px;
+}
+
+.portfolio-left.profile-main .v-text-field>.v-input__control>.v-input__slot:before,
+.v-text-field>.v-input__control>.v-input__slot:after {
+    display: none;
+}
+
+.subscr-profile h3 {
+    letter-spacing: 4px;
+    color: #02b9ef;
+    font-size: 24px;
+    font-weight: 500;
+    border-bottom: 1px solid #dfeaec;
+    padding-bottom: 17px;
+}
+
+.row.subscr-profile {
+    background: #effbfe;
+    border-radius: 15px;
+    margin: 0;
+    padding: 20px;
+}
+
+.subscr-profile h4 {
+    letter-spacing: 2px;
+    color: #000000;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.subscr-profile .v-image.v-responsive.theme--light {
+    max-width: 23px;
+}
+
+.subscr-profile span {
+    font-size: 20px;
+    letter-spacing: 3.23px;
+    color: #797b7b;
+    font-weight: 300;
+    width: auto;
+    flex: inherit;
+    margin-left: 11px;
+}
+
+.subscr-profile .v-list-item__content.last-pd-0 {
+    padding-top: 2px;
+}
+
+.portfolio-right.profile-since.col.col-3 .v-list-item__content.member-sibce-p {
+    flex-wrap: nowrap;
+}
+
+.subscr-profile .col-xs-12.col-md-3.col-sm-6.col {
+    padding-top: 2px;
+}
+
+.subscr-profile button.edit-btn-p.v-btn {
+    background: #ffffff !important;
+    border-radius: 7px;
+    width: 100% !important;
+    max-width: 125px;
+    height: 40px;
+    margin-left: auto;
+    box-shadow: none;
+}
+
+button.edit-btn-p.edit-profile-btns.v-btn.v-btn--contained.theme--light.v-size--default {
+    background: #effbfe !important;
+    border-radius: 7px;
+    width: 100% !important;
+    max-width: 125px;
+    height: 40px;
+    margin-left: auto;
+    box-shadow: none;
+}
+
+button.edit-btn-p.edit-profile-btns.v-btn.v-btn--contained.theme--light.v-size--default {
+    position: absolute;
+    right: 0;
+}
+
+button.edit-btn-p.edit-profile-btns.v-btn.v-btn--contained.theme--light.v-size--default span.v-btn__content {
+    margin: 0;
+    letter-spacing: 2px;
+    color: #02B9EF;
+    font-weight: 300 !important;
+    font-size: 17px !important;
+    text-transform: capitalize;
+}
+
+.subscr-profile button.edit-btn-p.v-btn span {
+    margin: 0;
+    letter-spacing: 2px;
+    color: #02b9ef;
+    font-weight: 300 !important;
+    font-size: 17px !important;
+    text-transform: capitalize;
+}
+
+.pd-left-s {
+    padding-left: 15px;
+}
+
+.portfolio-right.profile-since.col.col-3 h4 {
+    letter-spacing: 0.97px;
+    color: #02b9ef;
+    font-size: 17px;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(110 110 110 / 0.12);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.member-sibce-p .v-input__slot {
+    margin: 0 0 0 13px;
+}
+
+.portfolio-left.profile-main.col.col-9 button.backarrows.v-btn.v-btn--contained.theme--light.v-size--default {
+    position: absolute;
+    left: -120px;
+}
+
+.member-sibce-p .v-input__slot::before {
+    display: none;
+}
+
+.pd-left-s2 {
+    padding-left: 30px;
+}
+
+.member-sibce-p .v-input {
+    margin: 0;
+    padding: 0;
+}
+
+.member-sibce-p .v-image.v-responsive.theme--light {
+    max-width: 20.17px;
+    position: relative;
+    top: -6px;
+}
+
+@media (max-width: 1200px) {
+    .portfolio-left.profile-main.col.col-9 button.backarrows.v-btn.v-btn--contained.theme--light.v-size--default {
+        position: absolute;
+        left: -10px;
+    }
+
+    .pd-left-s {
+        padding-left: 0;
+    }
+
+    .pd-left-s2 {
+        padding-left: 0;
+    }
+
+    .row.profile-row-parent {
+        margin: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .subscr-profile button.edit-btn-p.v-btn {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .row.profile-row-parent .col-9 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .subscr-profile h3 {
+        letter-spacing: 3px;
+        font-size: 19px;
+    }
+
+    .subscr-profile button.edit-btn-p.v-btn span {
+        font-size: 15px !important;
+    }
+
+    .subscr-profile span {
+        font-size: 17px;
+        letter-spacing: 1.23px;
+        margin-left: 9px;
+    }
+
+    .subscr-profile h4 {
+        font-size: 17px;
+    }
+
+    .row.profile-row-parent .portfolio-left.col.col-9 {
+        min-height: auto;
+        padding-right: 20px;
+    }
+
+    .profile-main form.v-form label.v-label.v-label--active.theme--light {
+        font-size: 16px;
+        transform: translateY(-34px) scale(1);
+    }
+
+    .profile-main form.v-form .v-text-field {
+        padding-top: 5px;
+        margin-top: 0;
+    }
+
+    .profile-main .v-text-field__slot {
+        height: 54px;
+        padding: 13px 20px;
+    }
+
+    .fill-profile-form .col.col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .v-card__actions.profile-img .v-image.v-responsive.theme--light .v-image__image.v-image__image--cover {
+        background-size: 180px;
+    }
+
+    .v-card__actions.profile-img {
+        padding-bottom: 22px;
+    }
+
+    button.edit-btn-p.edit-profile-btns.v-btn.v-btn--contained.theme--light.v-size--default {
+        max-width: 105px;
+        height: 37px;
+    }
+}
